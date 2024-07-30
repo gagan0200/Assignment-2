@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan</title>
+    <link rel="stylesheet" href="./plan.css" />
+  </head>
+  <body>
+    <section>
+      <div class="icon-container">
+        <div class="icon-box about" data-modal="about">
+          <i class="fa-regular fa-address-card"></i>
+        </div>
+        <div class="icon-box projects" data-modal="projects">
+          <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div class="icon-box testimonial" data-modal="testimonial">
+          <i class="fa-solid fa-users-rectangle"></i>
+        </div>
+        <div class="icon-box contact" data-modal="contact">
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+      </div>
+    </section>
+
+    <div class="popup" id="about">
+      <div class="popup-container">
+        <div class="popup-header">
+          <div class="button-container">
+            <button class="close-btn circle-btn red">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button class="close-btn circle-btn yellow">
+              <i class="fa-solid fa-window-minimize"></i>
+            </button>
+            <button class="maximize-btn circle-btn green">
+              <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+            </button>
+          </div>
+        </div>
+        <div class="popup-body about-container">
+          <div class="img-frame">
+            <img src="./assets/img/gallery/gallery2.png" alt="" />
+          </div>
+          <div class="hero-content">
+            <h1>Thank you for your purchase</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic,
+              culpa porro. Saepe iusto ipsam, aspernatur corrupti a autem
+              eveniet voluptatem adipisci aperiam magni aliquid fugiat sunt
+              dolores consequatur vitae quisquam cupiditate in fuga debitis modi
+              reprehenderit omnis animi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./plan.js"></script>
+  </body>
+</html>
